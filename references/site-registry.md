@@ -94,7 +94,7 @@ holding nothing on one person may hold plenty on another.
 | BehindTheEmail | US / intl | Email | `contact@behindtheemail.com` | Request sent — awaiting reply |  |
 | Castrick Clues | US / intl | N/A | `(closed Feb 2026)` | Defunct — service closed |  |
 | ClarityCheck | US / intl | Email | `privacy@claritycheck.com` | Request sent — awaiting reply |  |
-| CloudSint | US / intl | Email | `privacy@cloudsint.net` | Request sent — awaiting reply |  |
+| CloudSint | US / intl | Discord ticket (fastest) | `discord.com/invite/y5qzWwyYrC` | Request sent — awaiting reply | Fastest route by far: join their Discord and open a removal ticket asking to be removed. Email fallback privacy@cloudsint.net is slow. |
 | EmailOSINT | US / intl | N/A | `(parked domain)` | Skipped — parked domain |  |
 | EmailOSINT (emailosint.org) | Intl | Self-service | `emailosint.org/claim` | Confirmation link sent — needs clicking | Self-service portal is the only route |
 | EmailOSINT.org | US / intl | Email | `privacy@emailosint.org` | Confirmation link sent — needs clicking |  |
