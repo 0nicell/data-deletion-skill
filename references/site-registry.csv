@@ -1,17 +1,17 @@
 site,category,jurisdiction,method,contact,outcome,notes
-Breach Detective,Breach & leak search,US / intl,Email,contact@breachdetective.com,Request sent — awaiting reply,
+Breach Detective,Breach & leak search,US / intl,Email,contact@breachdetective.com,Submitted,
 BreachAware,Breach & leak search,UK,Email,privacy@breachaware.com,Gmail blocked from platform; systems check under way,Replies from Service@breachaware.com
 BreachCheck.io,Breach & leak search,Intl,Email,(support@breachcheck.io bounced),Bounced — no working contact,
 BreachDirectory,Breach & leak search,US / intl,Email,contact@breachdirectory.org,Request sent — awaiting reply,
 BreachForums,Breach & leak search,Intl,N/A,(seized 2024),Defunct — seized,
-BreachSense,Breach & leak search,US / intl,Email,info@breachsense.com,Request sent — awaiting reply,
+BreachSense,Breach & leak search,US / intl,Email,info@breachsense.com,Submitted,
 CheckLeaked.cc,Breach & leak search,US / intl,Email,privacy@checkleaked.cc,Request sent — awaiting reply,JS-only contact page
 Cracked.io,Breach & leak search,Intl,N/A,(seized),Defunct — seized,
 CyberNews Breach Checker,Breach & leak search,LT / EU,Self-service,cybernews.com/data-leak-check-opt-out/,Submitted,
 DataBreach.com,Breach & leak search,US / intl,Self-service + Email,contact@databreach.com,Confirmed opted out (both emails + username),
 DeHashed,Breach & leak search,US / intl,Web form,dehashed.com/support,Request sent — awaiting reply,
 DeXpose,Breach & leak search,Intl,Email,info@dexpose.io,Request sent — awaiting reply,
-Digital Footprint Check,Breach & leak search,US / intl,Email,info@digitalfootprintcheck.com,Request sent — awaiting reply,
+Digital Footprint Check,Breach & leak search,US / intl,Email,info@digitalfootprintcheck.com,confirmed,
 Enzoic,Breach & leak search,US,Email,info@enzoic.com,Request sent — awaiting reply,
 Exposed.vc,Breach & leak search,Intl,N/A,(domain for sale),Defunct — no action,
 GhostProject,Breach & leak search,FR / EU,Social media,ghostproject.fr,Contacted via social,
@@ -41,13 +41,13 @@ Namescan,Breach & leak search,AU,Email,compliance@namescan.io,Request sent — a
 NiamonX / PwnedLookup,Breach & leak search,Intl,Email,support@niamonx.io,Request sent — awaiting reply,
 OathNet,Breach & leak search,Intl,Email,support@oathnet.org,Confirmed removed,Ticket TICKET-326EBA0A
 OffSeq Breach,Breach & leak search,US / intl,Email,breach@offseq.com,Request sent — awaiting reply,
-OSINTLeak,Breach & leak search,US / intl,Self-service,osintleak.com,Verification code expired — resubmit,
+OSINTLeak,Breach & leak search,US / intl,Self-service,osintleak.com,confirmed remobal,
 ProxyNova,Breach & leak search,US / intl,Email,admin@proxynova.com,Request sent — awaiting reply,Hosts the COMB credential dataset
 PSBDMP,Breach & leak search,US / intl,Email,support@psbdmp.ws,Request sent — awaiting reply,
 pwndb,Breach & leak search,Intl,Email,info@pwndb.com,Request sent — awaiting reply,
 RaidForums,Breach & leak search,Intl,N/A,(seized 2022),Defunct — seized by FBI,
 ScatteredSecrets,Breach & leak search,US / intl,Email,legal@scatteredsecrets.com,info@ bounced — no working contact,
-Snusbase,Breach & leak search,US / intl,Email,support@snusbase.com,Self-service — account.snusbase.com after sign-up,
+Snusbase,Breach & leak search,US / intl,Email,support@snusbase.com,Self-service — confirmed,
 Snusbase,Breach & leak search,US / intl,Email,help@snusbase.com,Self-service — account.snusbase.com after sign-up,Supports username search
 Venacus,Breach & leak search,Intl,Email,(support@venacus.com bounced),Bounced — no working contact,
 WeLeakInfo,Breach & leak search,Intl,N/A,(seized 2021),Defunct — seized by FBI/DOJ,
@@ -59,7 +59,7 @@ Analyst Research Tools,OSINT / email intelligence,US / intl,N/A,analystresearcht
 BehindTheEmail,OSINT / email intelligence,US / intl,Email,contact@behindtheemail.com,Request sent — awaiting reply,
 Castrick Clues,OSINT / email intelligence,US / intl,N/A,(closed Feb 2026),Defunct — service closed,
 ClarityCheck,OSINT / email intelligence,US / intl,Email,privacy@claritycheck.com,Request sent — awaiting reply,
-CloudSint,OSINT / email intelligence,US / intl,Discord ticket (fastest),discord.com/invite/y5qzWwyYrC,Request sent — awaiting reply,Fastest route by far: join their Discord and open a removal ticket asking to be removed. Email fallback privacy@cloudsint.net is slow.
+CloudSint,OSINT / email intelligence,US / intl,Discord ticket (fastest),discord.com/invite/y5qzWwyYrC,CONFIRMED + blacklist,Fastest route by far: join their Discord and open a removal ticket asking to be removed. Email fallback privacy@cloudsint.net is slow.
 EmailOSINT,OSINT / email intelligence,US / intl,N/A,(parked domain),Skipped — parked domain,
 EmailOSINT (emailosint.org),OSINT / email intelligence,Intl,Self-service,emailosint.org/claim,Confirmation link sent — needs clicking,Self-service portal is the only route
 EmailOSINT.org,OSINT / email intelligence,US / intl,Email,privacy@emailosint.org,Confirmation link sent — needs clicking,
@@ -70,7 +70,7 @@ Epieos,OSINT / email intelligence,FR / EU,Email,contact@epieos.com,Search exclus
 FootprintIQ,OSINT / email intelligence,US / intl,N/A,footprintiq.app,No action — client-side only,"Ephemeral scans, no server storage"
 Forensic OSINT,OSINT / email intelligence,US / intl,N/A,forensicosint.com,No action — client-side only,100% client-side
 Infoga,OSINT / email intelligence,Intl,Email,(contact@infoga.io bounced),Bounced — no working contact,
-IntelBase,OSINT / email intelligence,US / intl,Email,support@intelbase.is,Request sent — awaiting reply,
+IntelBase,OSINT / email intelligence,US / intl,Email,support@intelbase.is,confirmed,
 Intelligence Security,OSINT / email intelligence,US / intl,N/A,intelligencesecurity.io,Skipped — site defunct,
 Mailboxlayer,OSINT / email intelligence,AT / EU,Email,support@mailboxlayer.com,Request sent — awaiting reply,
 Maltego,OSINT / email intelligence,DE / EU,Email,privacy@maltego.com,Request sent — awaiting reply,
@@ -102,7 +102,7 @@ GoLookup,People search,US,Email,privacy@golookup.com,Request sent — awaiting r
 Hiya,People search,US,Email,DPO@hiya.com,Ticket open (#3488384),
 IDCrawl,People search,US / intl,Web form,idcrawl.com/remove-my-information,Form — user action required,
 IDStrong,People search,US,Email,privacy@idstrong.com,Ticket open (#547083),
-Information.com,People search,US,Email,support@information.com,More detail requested,
+Information.com,People search,US,Email,support@information.com,confirmed,
 InfoTracer,People search,US / intl,Email,privacy@infotracer.com,Confirmed removed,
 Instant Checkmate,People search,US / intl,Email,privacy@instantcheckmate.com,Confirmed deleted,
 Intelius,People search,US / intl,Email,privacy@intelius.com,Confirmed deleted,
@@ -175,7 +175,7 @@ Groove,B2B contact data & lead-gen,US / intl,Email,support@groove.co,Request sen
 HG Insights,B2B contact data & lead-gen,US / intl,Email,legal@hginsights.com,Request sent — awaiting reply,
 HireEZ,B2B contact data & lead-gen,US / intl,Email,privacy@hireez.com,No data,
 Hunter.io,B2B contact data & lead-gen,US / intl,Email,(previous session),Does not collect personal email,
-Instantly.ai,B2B contact data & lead-gen,US / intl,Email,privacy@instantly.ai,Request sent — awaiting reply,
+Instantly.ai,B2B contact data & lead-gen,US / intl,Email,privacy@instantly.ai,confirmed,
 Interseller,B2B contact data & lead-gen,US / intl,Email,privacy@interseller.io,Request sent — awaiting reply,
 Kaspr,B2B contact data & lead-gen,FR / EU,Email,privacy@kaspr.io,Directed to DSR form,
 Kendo,B2B contact data & lead-gen,US / intl,Email,support@kendoemailapp.com,Request sent — awaiting reply,
