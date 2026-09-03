@@ -78,7 +78,7 @@ the right actually is, and the regulator to complain to when it is ignored.
 Clone into your Claude skills directory:
 
 ```bash
-git clone https://github.com/OWNER/data-deletion-skill.git ~/.claude/skills/data-deletion
+git clone https://github.com/0nicell/data-deletion-skill.git ~/.claude/skills/data-deletion
 ```
 
 Or add it to a project as `.claude/skills/data-deletion/`.
