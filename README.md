@@ -1,7 +1,7 @@
 # Data Deletion Skill
 
 **A Claude skill for running a structured personal-data erasure campaign against the
-commercial data-harvesting ecosystem.** Ships a registry of 224 organisations with
+commercial data-harvesting ecosystem.** Ships a registry of 314 organisations with
 verified privacy contacts, request templates for 13 privacy regimes, and escalation paths
 to 21 regulators.
 
@@ -9,7 +9,7 @@ Built from a real ten-week campaign, not from a blog post about one.
 
 <p>
 <img alt="Skill" src="https://img.shields.io/badge/Claude-Skill-8A63D2">
-<img alt="Sites" src="https://img.shields.io/badge/sites%20covered-224-1f6feb">
+<img alt="Sites" src="https://img.shields.io/badge/sites%20covered-314-1f6feb">
 <img alt="Regimes" src="https://img.shields.io/badge/privacy%20regimes-13-2da44e">
 <img alt="Regulators" src="https://img.shields.io/badge/regulators-21-e3b341">
 <img alt="Development" src="https://img.shields.io/badge/built%20over-10%20active%20weeks-6e7781">
@@ -28,7 +28,7 @@ address per record. Twenty-eight were ad-tech platforms holding hashed identifie
 inferred segments. Most of the target list was discovered mid-campaign by asking one
 controller who it had shared data with, then following that thread.
 
-Removing yourself is not hard because the law is weak. It is hard because it is 224
+Removing yourself is not hard because the law is weak. It is hard because it is 314
 separate pieces of admin, each requiring a working contact address that is probably not
 the one on the privacy page, a legal basis matched to your jurisdiction, and a follow-up
 thirty days later that nobody remembers to send.
@@ -40,7 +40,7 @@ This skill is that admin, packaged.
 | | |
 |---|---|
 | [`SKILL.md`](SKILL.md) | The skill: an eight-step campaign process Claude follows |
-| [`references/site-registry.md`](references/site-registry.md) | **224 organisations**, nine categories, verified privacy contacts and recorded outcomes |
+| [`references/site-registry.md`](references/site-registry.md) | **314 organisations**, nine categories, verified privacy contacts and recorded outcomes |
 | [`references/site-registry.csv`](references/site-registry.csv) | Same data, machine-readable |
 | [`references/privacy-laws.md`](references/privacy-laws.md) | **13 regimes** — article, deadline, right strength, regulator |
 | [`references/templates-email.md`](references/templates-email.md) | Request bodies per regime, per site-category, plus chat / form / DM short forms |
@@ -52,19 +52,19 @@ This skill is that admin, packaged.
 
 ## Coverage
 
-**224 organisations across nine categories**
+**314 organisations across nine categories**
 
 | Category | Count | Examples of what they do |
 |---|---:|---|
-| B2B contact data & lead-gen | 69 | Sell name/email/employer records per lookup |
-| Breach & leak search | 35 | Make credentials from criminal breaches publicly searchable |
-| Ad-tech & audience data | 28 | Hold hashed identifiers and inferred behavioural segments |
-| OSINT / email intelligence | 27 | Turn an email address into a map of your accounts |
-| People search | 25 | Publish addresses, relatives, age — mostly US-scoped |
-| Email verification | 16 | Deliverability checking; several retain nothing |
-| Regional directory | 10 | Electoral roll and directory data across the UK, DE, AT, BE |
-| Major data broker | 7 | Aggregate and resell profiles at scale |
-| Threat intelligence | 7 | Index infostealer logs and dark-web credential dumps |
+| B2B contact data & lead-gen | 75 | Sell name/email/employer records per lookup |
+| Breach & leak search | 54 | Make credentials from criminal breaches publicly searchable |
+| People search | 41 | Publish addresses, relatives, age — mostly US-scoped |
+| OSINT / email intelligence | 36 | Turn an email address into a map of your accounts |
+| Ad-tech & audience data | 32 | Hold hashed identifiers and inferred behavioural segments |
+| Threat intelligence | 29 | Index infostealer logs and dark-web credential dumps |
+| Regional directory | 18 | Electoral roll and directory data across the UK, DE, AT, BE |
+| Email verification | 17 | Deliverability checking; several retain nothing |
+| Major data broker | 12 | Aggregate and resell profiles at scale |
 
 **13 privacy regimes** — EU GDPR · UK GDPR · Swiss FADP · CCPA/CPRA · 19 other US state
 laws · PIPEDA · Québec Law 25 · LGPD · POPIA · Australia's Privacy Act · APPI · PIPA ·
