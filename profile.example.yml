@@ -1,0 +1,43 @@
+# Copy to profile.yml and fill in. Do not commit profile.yml — it is in .gitignore.
+#
+# This file is the input to every template in references/templates-email.md.
+# Placeholders left unfilled will appear verbatim in sent messages, so check before sending.
+
+subject:
+  full_name: "Alex Moore"
+  # How the name should appear on forms. Many US-hosted forms mangle diacritics —
+  # if your name has them, decide here whether to use the plain-ASCII form.
+  name_on_forms: "Alex Moore"
+  country: "Ireland"
+  # Used to select the jurisdiction block. See references/privacy-laws.md.
+  legal_regime: "GDPR"
+
+identifiers:
+  emails:
+    - "alex.moore@example.com"      # primary — replies come here
+    - "a.moore1994@example.com"     # old address, likely in breach corpora
+  usernames:
+    - "alexm"                       # breach-search engines index these separately
+  phones:
+    - "+353 XX XXX XXXX"            # optional; needed for most US people-search opt-outs
+  # Optional. Required by US people-search sites, irrelevant to most EU requests.
+  locations_current: []
+  locations_previous: []
+
+form_defaults:
+  company: "N/A — Private Individual"
+  reason: "Right to erasure / removal of personal data"
+
+campaign:
+  # Which registry categories to target. See references/site-registry.md.
+  categories:
+    - "Breach & leak search"
+    - "OSINT / email intelligence"
+    - "People search"
+  sites_per_session: 15
+  # Statutory deadline in days for the chosen regime — used to compute follow-up dates.
+  response_deadline_days: 30
+
+# NEVER put government ID numbers, passport or licence numbers, payment details,
+# or scans of identity documents in this file. If a controller demands identification,
+# supply a redacted document yourself through their own portal.

@@ -1,0 +1,5 @@
+profile.yml
+tracker.md
+tracker.csv
+*.local.*
+.DS_Store
