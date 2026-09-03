@@ -20,8 +20,8 @@ Built from a real ten-week campaign, not from a blog post about one.
 
 ## The problem
 
-Ask someone where their personal data is and they will name a breach site or two. In the
-campaign this skill was built from, breach-search engines turned out to be the most
+Ask someone where their personal data is and they will name a breach site or two like for example "intel x" or cloudsint. 
+in the campaign this skill was built from, breach-search engines turned out to be the most
 *visible* exposure and one of the smallest categories. Sixty-nine organisations were B2B
 contact databases — legitimate, well-funded companies selling the subject's name and
 address per record. Twenty-eight were ad-tech platforms holding hashed identifiers and
@@ -106,7 +106,7 @@ you how to push back on the scope and you upload a redacted copy yourself.
 
 ## Four things that came out of doing this for real
 
-**Suppression beats deletion.** One major breach-search engine confirmed removal in
+**Suppression(blacklist gmail as search term) beats deletion.** One major breach-search engine confirmed removal in
 writing; the data was retrievable again nineteen days later, reinstated by the next
 dataset ingest. Every template now asks for the identifier to be added to a permanent
 *search-selector suppression list*, not just for the record to be deleted. That one change
