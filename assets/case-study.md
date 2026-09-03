@@ -1,10 +1,10 @@
-# Case Study — Ten Weeks, 224 Organisations
+# Case Study — Fifteen Weeks, 314 Organisations
 
 This skill is a generalisation of one real campaign. The numbers below are what came out
 of it. The subject's identifiers are redacted, which is the whole point of the exercise.
 
 **Subject:** one individual, EU resident (Ireland), three email addresses and one
-username. **Duration:** ten active weeks. **Organisations contacted:** 224.
+username. **Duration:** fifteen active weeks. **Organisations contacted:** 314.
 
 ---
 
@@ -17,15 +17,15 @@ legitimate, well-funded, and mostly unknown to the person whose data they held.
 
 | Category | Organisations | What they hold |
 |---|---|---|
-| B2B contact data & lead-gen | 69 | Name, email, employer, inferred role — sold per-record |
-| Breach & leak search | 35 | Credentials from criminal breaches, searchable by anyone |
-| Ad-tech & audience data | 28 | Hashed identifiers, inferred segments, cross-site behaviour |
-| OSINT / email intelligence | 27 | Real-time lookups linking an address to accounts |
-| People search | 25 | Name, addresses, relatives, age — mostly US-scoped |
-| Email verification | 16 | Deliverability checks; several genuinely retain nothing |
-| Regional directory | 10 | Electoral roll and directory data, EU/UK |
-| Major data broker | 7 | Aggregated profiles sold at scale |
-| Threat intelligence | 7 | Infostealer logs and dark-web credential monitoring |
+| B2B contact data & lead-gen | 75 | Name, email, employer, inferred role — sold per-record |
+| Breach & leak search | 54 | Credentials from criminal breaches, searchable by anyone |
+| People search | 41 | Name, addresses, relatives, age — mostly US-scoped |
+| OSINT / email intelligence | 36 | Real-time lookups linking an address to accounts |
+| Ad-tech & audience data | 32 | Hashed identifiers, inferred segments, cross-site behaviour |
+| Threat intelligence | 29 | Infostealer logs and dark-web credential monitoring |
+| Regional directory | 18 | Electoral roll and directory data, EU/UK |
+| Email verification | 17 | Deliverability checks; several genuinely retain nothing |
+| Major data broker | 12 | Aggregated profiles sold at scale |
 
 Two-thirds of the target list was discovered *during* the campaign rather than before it,
 mostly by asking controllers under Article 19 who they had shared data with, and by
