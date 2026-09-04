@@ -1,7 +1,7 @@
 # Campaign Playbook
 
 The order things happen in, and roughly what each stage costs. Ten weeks of part-time
-effort against 314 organisations is the shape this is drawn from; a focused campaign
+effort against 328 organisations is the shape this is drawn from; a focused campaign
 against the sixty sites that actually publish to the open web is perhaps three weeks.
 
 The single biggest determinant of how long it takes is not drafting. It is finding

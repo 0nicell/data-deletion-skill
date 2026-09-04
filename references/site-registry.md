@@ -1,20 +1,20 @@
 # Site Registry
 
 Every organisation contacted during the campaign this skill was built from, grouped by what
-they actually do with your data. **314 entries.** Machine-readable copy: [`site-registry.csv`](site-registry.csv).
+they actually do with your data. **328 entries.** Machine-readable copy: [`site-registry.csv`](site-registry.csv).
 
 Contact addresses are the ones that were *verified working* — where an obvious address bounced, the
 replacement is recorded and the bounce noted. That column is the single most valuable thing in this
 repo: finding it is the slow part of the job, and it is already done.
 
-**Outcome** records what came back during the campaign, as of the **3 September 2026** reply audit.
+**Outcome** records what came back during the campaign, as of the **4 September 2026** update.
 Treat it as evidence that the address is live, not as a promise about your own request — a broker
 holding nothing on one person may hold plenty on another.
 
 | Category | Entries |
 |---|---|
-| [Breach & leak search](#breach--leak-search) | 54 |
-| [OSINT / email intelligence](#osint--email-intelligence) | 36 |
+| [Breach & leak search](#breach--leak-search) | 63 |
+| [OSINT / email intelligence](#osint--email-intelligence) | 41 |
 | [People search](#people-search) | 41 |
 | [Major data broker](#major-data-broker) | 12 |
 | [B2B contact data & lead-gen](#b2b-contact-data--lead-gen) | 75 |
@@ -22,7 +22,7 @@ holding nothing on one person may hold plenty on another.
 | [Ad-tech & audience data](#ad-tech--audience-data) | 32 |
 | [Threat intelligence](#threat-intelligence) | 29 |
 | [Regional directory](#regional-directory) | 18 |
-| **Total** | **314** |
+| **Total** | **328** |
 
 
 ## Breach & leak search
@@ -32,9 +32,11 @@ holding nothing on one person may hold plenty on another.
 | Breach Detective | US / intl | Email | `contact@breachdetective.com` | Request sent — awaiting reply |  |
 | BreachAware | UK | Email | `privacy@breachaware.com` | Gmail blocked from platform; systems check under way | Replies from Service@breachaware.com |
 | BreachCheck.io | Intl | Email | `(support@breachcheck.io bounced)` | Bounced — no working contact |  |
+| BreachData.eu | Intl | N/A | `(NXDOMAIN)` | Defunct — domain no longer resolves | Advertised 600B+ records as of mid-2026 |
 | BreachDirectory | US / intl | Email | `contact@breachdirectory.org` | Request sent — awaiting reply |  |
 | BreachForums | Intl | N/A | `(seized 2024)` | Defunct — seized |  |
 | BreachSense | US / intl | Email | `info@breachsense.com` | Request sent — awaiting reply |  |
+| BreachVIP | Intl | Telegram | `t.me/BreachSupp` | Telegram-only — no email or web contact | Searches email, username, name, password, phone, domain, IP, Minecraft UUID, Steam ID, Discord ID |
 | CheckLeaked.cc | US / intl | Email | `privacy@checkleaked.cc` | Request sent — awaiting reply | JS-only contact page |
 | Cracked.io | Intl | N/A | `(seized)` | Defunct — seized |  |
 | CyberNews Breach Checker | LT / EU | Self-service | `cybernews.com/data-leak-check-opt-out/` | Submitted |  |
@@ -53,12 +55,15 @@ holding nothing on one person may hold plenty on another.
 | Have I Been Pwned | AU | Web form | `haveibeenpwned.com/OptOut` | Opt-out completed | Per-address email verification; choose public-search removal + breach deletion |
 | HaveIBeenBreached / Cloaked | US / intl | Email | `privacy@cloaked.id` | No data |  |
 | HaveIBeenSold | Intl | Email | `support@haveibeensold.app` | Request sent — awaiting reply |  |
+| HEROIC / DarkHive | US | Email | `contact@heroic.com` | Request sent — awaiting reply | 400B+ compromised records in one queryable DB; powers DarkWatch enterprise monitoring and the free consumer scanner |
 | HPI Identity Leak Checker | DE / EU | Email | `datenschutz@hpi.de` | Request sent — awaiting reply | Hasso-Plattner-Institut |
 | Identeco / Uni-Bonn Leak Checker | DE / EU | Email | `contact@identeco.de` | Request sent — awaiting reply | leakchecker@uni-bonn.de also contacted |
 | IntelFetch | SE / EU | Email | `dpo@intelfetch.net` | Confirmed removed |  |
+| IntelVault | Intl | Telegram | `t.me/intelvaultcc` | Telegram-only — no email or web contact | "Next generation data breach search engine"; no privacy or terms page exists |
 | IntelX | CZ / EU | Web form | `intelx.io/abuse` | Confirmed removed (follow-up filed) |  |
 | Leak-Lookup | US / intl | Email | `(previous session)` | Request sent — awaiting reply |  |
 | LeakCheck | US / intl | Email | `(previous session)` | Removal approved |  |
+| LeakCheck.cc | Intl | N/A | `(domain hijacked)` | Defunct — redirects to a push-notification scam | NOT the same operator as leakcheck.io; still listed as live on comparison sites |
 | Leaked.Domains | Intl | Email | `info@leaked.domains` | Awaiting ownership confirmation for all 3 addresses | Responsive operator, willing to process |
 | LeakedPassword | Intl | Email | `(support@leakedpassword.com bounced)` | Bounced — no working contact |  |
 | LeakedSource | Intl | N/A | `(shut down)` | Defunct — shut down |  |
@@ -76,13 +81,17 @@ holding nothing on one person may hold plenty on another.
 | PSBDMP | US / intl | Email | `support@psbdmp.ws` | Request sent — awaiting reply |  |
 | pwndb | Intl | Email | `info@pwndb.com` | Request sent — awaiting reply |  |
 | RaidForums | Intl | N/A | `(seized 2022)` | Defunct — seized by FBI |  |
+| Revealer.US | US | Web form + Email | `revealer.us/opt-out` (`finance@revealer.us`) | Request sent — awaiting reply | Plaintext passwords next to the exact site, live session cookies, stealer family. Self-serve opt-out suppresses a verified email within 24h; usernames/phones/names reviewed in ~4 weeks. finance@ is the only published address |
 | ScatteredSecrets | US / intl | Email | `legal@scatteredsecrets.com` | info@ bounced — no working contact |  |
 | Snusbase | US / intl | Email | `support@snusbase.com` | Self-service — account.snusbase.com after sign-up |  |
 | Snusbase | US / intl | Email | `help@snusbase.com` | Self-service — account.snusbase.com after sign-up | Supports username search |
+| stolen.tax | Intl | Email | `stolentax@atomicmail.io` | Request sent — awaiting reply | 828B records across breaches, stealer logs and combolists; has a /removal page; Telegram bot front-end |
+| TRACKED | Intl | Email | `support@tracked.sh` | Request sent — awaiting reply | 500B+ records; markets itself on minimal logging, which does not touch the indexed source data |
 | Venacus | Intl | Email | `(support@venacus.com bounced)` | Bounced — no working contact |  |
 | WeLeakInfo | Intl | N/A | `(seized 2021)` | Defunct — seized by FBI/DOJ |  |
 | WhiteIntel | Intl | Email | `info@whiteintel.io` | Request sent — awaiting reply | support@whiteintel.io bounced |
 | XposedOrNot | US / intl | Email | `deva@xposedornot.com` | Privacy Shield link sent — needs activation |  |
+| xsearcher.fun | Intl | Email | `contact@xsearcher.fun` | Request sent — awaiting reply | Stealer logs: saved passwords with their URLs, browser cookies and session tokens, autofill incl. card numbers, history, crypto wallets, IP/OS/hardware ID, capture date |
 
 ## OSINT / email intelligence
 
@@ -95,6 +104,7 @@ holding nothing on one person may hold plenty on another.
 | Castrick Clues | US / intl | N/A | `(closed Feb 2026)` | Defunct — service closed |  |
 | ClarityCheck | US / intl | Email | `privacy@claritycheck.com` | Request sent — awaiting reply |  |
 | CloudSint | US / intl | Discord ticket (fastest) | `discord.com/invite/y5qzWwyYrC` | Request sent — awaiting reply | Fastest route by far: join their Discord and open a removal ticket asking to be removed. Email fallback privacy@cloudsint.net is slow. |
+| csint.pro | EU | Email | `contact@csint.pro` | Request sent — awaiting reply | 29 integrated sources, 100B+ records; priced in euro so Art. 3 is uncontroversial |
 | EmailOSINT | US / intl | N/A | `(parked domain)` | Skipped — parked domain |  |
 | EmailOSINT (emailosint.org) | Intl | Self-service | `emailosint.org/claim` | Confirmation link sent — needs clicking | Self-service portal is the only route |
 | EmailOSINT.org | US / intl | Email | `privacy@emailosint.org` | Confirmation link sent — needs clicking |  |
@@ -102,17 +112,21 @@ holding nothing on one person may hold plenty on another.
 | EmailSearch.io | US / intl | Email | `hi@emailsearch.io` | support@ bounced — no working contact |  |
 | EmailSherlock | US / intl | Web form | `emailsherlock.com/optout` | Submitted |  |
 | Epieos | FR / EU | Email | `contact@epieos.com` | Search exclusion applied; no account held |  |
+| espectrosint | Intl | Email | `help@espectrosint.com` | Request sent — awaiting reply | Cross-references 200+ sources on an email, phone or username |
 | FootprintIQ | US / intl | N/A | `footprintiq.app` | No action — client-side only | Ephemeral scans, no server storage |
 | Forensic OSINT | US / intl | N/A | `forensicosint.com` | No action — client-side only | 100% client-side |
+| HackMyIP | Intl | Email | `hello@hackmyip.com` | Request sent — awaiting reply | Email Leak tool plus IP profiling and reputation scoring |
 | Infoga | Intl | Email | `(contact@infoga.io bounced)` | Bounced — no working contact |  |
 | IntelBase | US / intl | Email | `support@intelbase.is` | Request sent — awaiting reply |  |
 | Intelligence Security | US / intl | N/A | `intelligencesecurity.io` | Skipped — site defunct |  |
 | Mailboxlayer | AT / EU | Email | `support@mailboxlayer.com` | Request sent — awaiting reply |  |
 | Maltego | DE / EU | Email | `privacy@maltego.com` | Request sent — awaiting reply |  |
+| Max Intel | Intl | Email | `hello@maxintel.org` | Request sent — awaiting reply | 79 free OSINT tools, no registration or API key; may be a directory rather than a data holder |
 | Minelead.io | US / intl | Email | `support@minelead.io` | Request sent — awaiting reply |  |
 | Opsis OSINT | US / intl | Email | `privacy@useopsis.com` | Request sent — awaiting reply |  |
 | OSINT Industries | UK | Web form | `osint.industries/contact-us` | No storage; suppression requested |  |
 | OSINT UI | Intl | Email | `(support@osint-ui.com bounced)` | Bounced — no working contact |  |
+| OSINTDog | Intl | Email | `legal@osintdog.co` | Request sent — awaiting reply | Aggregator API over 15+ providers (LeakCheck, HackCheck, Snusbase, BreachBase, IntelVault, BreachVIP, Rutify, Akula, LeakSight, Room 101, OathNet, SEON, Shodan, Genesis, IntelX). Contact domain is .co, not .com |
 | Osintly | US / intl | N/A | `(parked domain)` | Skipped — parked domain |  |
 | Predicta Lab / Predicta Search | FR / EU | Email | `contact@predictalab.com` | Acknowledged (ref DSR-26-014) | rgpd@predictalab.com also valid |
 | SEON | HU / EU | Email | `dpo@seon.io` | No data held |  |
@@ -151,7 +165,7 @@ holding nothing on one person may hold plenty on another.
 | NumLookup | US | Email | `hello@numlookup.com` | Wants name / state / phone |  |
 | Nuwber | US / intl | Email | `privacy@nuwber.com` | Request sent — awaiting reply |  |
 | PeekYou | US / intl | Email | `info@peekyou.com` | Request sent — awaiting reply |  |
-| Pentester.com | US | Web form | `forms.gle (opt-out form)` | Form only — forms.gle/z4JxEAyEKpr9nHRh7 | support@ bounced; form is name/address oriented |
+| Pentester.com | US | Email + Web form | `contact@pentester.com` | Re-contacted 4 Sep 2026 — awaiting reply | support@ bounced and legal@ auto-redirects to forms.gle/z4JxEAyEKpr9nHRh7; contact@ is the third address and the only one not yet tried. Also runs npd.pentester.com |
 | PeopleConnect | US | Email | `privacy@peopleconnect.us` | Processing (3 business days) | Parent of Intelius, Truthfinder, Instant Checkmate, PeopleLooker |
 | PeopleFinders | US / intl | Email | `customercare@peoplefinders.com` | Request sent — awaiting reply |  |
 | PeopleLooker | US / intl | Email | `privacy@peoplelooker.com` | No record |  |
