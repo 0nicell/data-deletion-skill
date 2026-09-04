@@ -1,6 +1,6 @@
 ---
 name: data-deletion
-description: Run a structured personal-data erasure campaign against OSINT tools, breach-search engines, people-search sites, B2B contact databases and ad-tech brokers. Use when someone wants their email address, name, phone number or username removed from data brokers, wants to know who is holding their data, asks about GDPR / CCPA / PIPEDA erasure or "right to be forgotten" requests, or asks to opt out of people-search or breach-lookup sites. Ships a 314-site registry with verified privacy contacts, request templates for 13 privacy regimes, and escalation paths to regulators.
+description: Run a structured personal-data erasure campaign against OSINT tools, breach-search engines, people-search sites, B2B contact databases and ad-tech brokers. Use when someone wants their email address, name, phone number or username removed from data brokers, wants to know who is holding their data, asks about GDPR / CCPA / PIPEDA erasure or "right to be forgotten" requests, or asks to opt out of people-search or breach-lookup sites. Ships a 328-site registry with verified privacy contacts, request templates for 13 privacy regimes, and escalation paths to regulators.
 license: MIT
 ---
 
@@ -11,7 +11,7 @@ data-harvesting ecosystem — breach-search engines, OSINT lookup tools, people-
 sites, B2B contact databases, email-verification services, ad-tech audience brokers
 and threat-intelligence platforms.
 
-Built from a real fifteen-week campaign against 314 organisations. Everything in
+Built from a real fifteen-week campaign against 328 organisations. Everything in
 `references/` is field-tested: the contact addresses are the ones that did not bounce,
 the templates are the ones that produced deletions, and the failure modes documented in
 `references/troubleshooting.md` are the ones that actually happened.
@@ -85,8 +85,8 @@ Three rules decide the framing:
 
 ## Step 3 — Select targets
 
-`references/site-registry.md` (and the CSV beside it) lists 314 organisations across nine
-categories with verified privacy contacts. Do not send all 314. Select by what the subject
+`references/site-registry.md` (and the CSV beside it) lists 328 organisations across nine
+categories with verified privacy contacts. Do not send all 328. Select by what the subject
 is actually exposed to:
 
 | If the subject… | Prioritise |
@@ -106,6 +106,51 @@ Before each wave, verify the contact address is still live. Companies get acquir
 privacy pages move, and `privacy@` addresses are deprecated without notice. Check the
 current privacy policy or `/.well-known/security.txt`. The registry's Notes column
 records which addresses had already gone stale once.
+
+### Finding the sites a registry misses
+
+A registry is a snapshot. This category churns faster than almost any other: new
+credential-search services launch monthly, old ones get hijacked or go dark, and the
+loudest names are not the ones holding the most data. Assume the list is incomplete and
+run these four sweeps at the start of every campaign.
+
+**1. Mine the aggregators for their upstream providers.** The single highest-yield move.
+Services that resell breach data through one API publish the list of sources they query —
+it is a selling point. One such page named fifteen upstream providers, five of which
+appeared in no "best breach search" article anywhere. Those pages are a free target list
+written by the industry itself. Send the aggregator an Article 19 request naming its
+providers back to it, and ask which ones it forwarded the erasure to.
+
+**2. Search for the data type, not the site type.** "Breach search engine" surfaces the
+same eight famous names every time. The services that expose the most search on the
+*contents*: `stealer logs`, `combolist`, `ULP`, `infostealer lookup`, `plaintext
+passwords`, `session cookies`, `hardware ID`. A site that returns a password next to the
+URL it belongs to describes itself in those words, not as a "breach checker".
+
+**3. Read the alternatives-to pages, past page one.** Comparison and alternative-listing
+sites rank the well-known services first and bury the small operators on pages two and
+three. The buried ones are usually the ones with no privacy page, no DPO and the least
+scruples — exactly the ones worth contacting.
+
+**4. Re-check a site that "has no email".** A bounced `support@` or a `legal@` that
+auto-redirects to a web form is not a dead end and does not mean the operator is
+uncontactable. Try `contact@`, `abuse@`, `privacy@`, `dpo@`, `info@` and the address in
+`/.well-known/security.txt` before recording the site as form-only. A form-only entry in
+a tracker quietly becomes a site that never got a request. Where a site genuinely
+publishes only a Telegram or Discord handle, that channel *is* the contact — record it in
+the Method column rather than leaving the row blank.
+
+A controller may not force a data subject through a specific web form as the only route to
+exercise a statutory right. Say so in the email when the form is the only published path.
+
+Two structural traps worth naming, because both cost time here:
+- **Aggregators need gateway-level blacklisting, not record deletion.** Deleting rows is
+  meaningless if the service proxies a live query to fifteen upstream providers. Ask for
+  the identifier to be suppressed at the gateway so the query returns nothing regardless
+  of which source would answer it.
+- **"We don't log queries" is not "we don't hold your data."** Several services market
+  minimal logging as a privacy feature. The obligation attaches to the indexed source
+  data, not the query log. Rebut it in the request rather than letting it stand.
 
 ## Step 4 — Draft the requests
 
@@ -201,7 +246,7 @@ controller either way.
 | File | Contents |
 |---|---|
 | `references/privacy-laws.md` | 13 regimes: article, deadline, scope, regulator, complaint URL |
-| `references/site-registry.md` | 314 organisations, verified contacts, outcomes |
+| `references/site-registry.md` | 328 organisations, verified contacts, outcomes |
 | `references/site-registry.csv` | Same data, machine-readable |
 | `references/templates-email.md` | Request bodies per regime, plus chat/form/DM short forms |
 | `references/escalation.md` | Reply handling, follow-ups, regulator complaints |
