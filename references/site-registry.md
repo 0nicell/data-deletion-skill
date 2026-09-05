@@ -1,20 +1,20 @@
 # Site Registry
 
 Every organisation contacted during the campaign this skill was built from, grouped by what
-they actually do with your data. **328 entries.** Machine-readable copy: [`site-registry.csv`](site-registry.csv).
+they actually do with your data. **329 entries.** Machine-readable copy: [`site-registry.csv`](site-registry.csv).
 
 Contact addresses are the ones that were *verified working* — where an obvious address bounced, the
 replacement is recorded and the bounce noted. That column is the single most valuable thing in this
 repo: finding it is the slow part of the job, and it is already done.
 
-**Outcome** records what came back during the campaign, as of the **4 September 2026** update.
+**Outcome** records what came back during the campaign, as of the **5 September 2026** update.
 Treat it as evidence that the address is live, not as a promise about your own request — a broker
 holding nothing on one person may hold plenty on another.
 
 | Category | Entries |
 |---|---|
 | [Breach & leak search](#breach--leak-search) | 63 |
-| [OSINT / email intelligence](#osint--email-intelligence) | 41 |
+| [OSINT / email intelligence](#osint--email-intelligence) | 42 |
 | [People search](#people-search) | 41 |
 | [Major data broker](#major-data-broker) | 12 |
 | [B2B contact data & lead-gen](#b2b-contact-data--lead-gen) | 75 |
@@ -22,7 +22,7 @@ holding nothing on one person may hold plenty on another.
 | [Ad-tech & audience data](#ad-tech--audience-data) | 32 |
 | [Threat intelligence](#threat-intelligence) | 29 |
 | [Regional directory](#regional-directory) | 18 |
-| **Total** | **328** |
+| **Total** | **329** |
 
 
 ## Breach & leak search
@@ -113,6 +113,7 @@ holding nothing on one person may hold plenty on another.
 | EmailSherlock | US / intl | Web form | `emailsherlock.com/optout` | Submitted |  |
 | Epieos | FR / EU | Email | `contact@epieos.com` | Search exclusion applied; no account held |  |
 | espectrosint | Intl | Email | `help@espectrosint.com` | Request sent — awaiting reply | Cross-references 200+ sources on an email, phone or username |
+| Fingerprint.to | Intl | Self-service | `fingerprint.to/opt-out` | Opted out — email blocked instantly on code verification | Live search across 700+ platforms by username, email or phone; nothing archived, results pulled from source at query time. The opt-out emails a 6-digit code and blocks that ONE address the moment it is entered — no account, no wait. It covers only the exact address verified: repeat per address, and use fingerprint.to/contact?type=removal for usernames and names (reviewed in 1–2 days). No privacy email is published |
 | FootprintIQ | US / intl | N/A | `footprintiq.app` | No action — client-side only | Ephemeral scans, no server storage |
 | Forensic OSINT | US / intl | N/A | `forensicosint.com` | No action — client-side only | 100% client-side |
 | HackMyIP | Intl | Email | `hello@hackmyip.com` | Request sent — awaiting reply | Email Leak tool plus IP profiling and reputation scoring |
