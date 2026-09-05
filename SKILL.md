@@ -1,6 +1,6 @@
 ---
 name: data-deletion
-description: Run a structured personal-data erasure campaign against OSINT tools, breach-search engines, people-search sites, B2B contact databases and ad-tech brokers. Use when someone wants their email address, name, phone number or username removed from data brokers, wants to know who is holding their data, asks about GDPR / CCPA / PIPEDA erasure or "right to be forgotten" requests, or asks to opt out of people-search or breach-lookup sites. Ships a 328-site registry with verified privacy contacts, request templates for 13 privacy regimes, and escalation paths to regulators.
+description: Run a structured personal-data erasure campaign against OSINT tools, breach-search engines, people-search sites, B2B contact databases and ad-tech brokers. Use when someone wants their email address, name, phone number or username removed from data brokers, wants to know who is holding their data, asks about GDPR / CCPA / PIPEDA erasure or "right to be forgotten" requests, or asks to opt out of people-search or breach-lookup sites. Ships a 329-site registry with verified privacy contacts, request templates for 13 privacy regimes, and escalation paths to regulators.
 license: CC-BY-NC-SA-4.0
 ---
 
@@ -11,7 +11,7 @@ data-harvesting ecosystem — breach-search engines, OSINT lookup tools, people-
 sites, B2B contact databases, email-verification services, ad-tech audience brokers
 and threat-intelligence platforms.
 
-Built from a real fifteen-week campaign against 328 organisations. Everything in
+Built from a real fifteen-week campaign against 329 organisations. Everything in
 `references/` is field-tested: the contact addresses are the ones that did not bounce,
 the templates are the ones that produced deletions, and the failure modes documented in
 `references/troubleshooting.md` are the ones that actually happened.
@@ -85,8 +85,8 @@ Three rules decide the framing:
 
 ## Step 3 — Select targets
 
-`references/site-registry.md` (and the CSV beside it) lists 328 organisations across nine
-categories with verified privacy contacts. Do not send all 328. Select by what the subject
+`references/site-registry.md` (and the CSV beside it) lists 329 organisations across nine
+categories with verified privacy contacts. Do not send all 329. Select by what the subject
 is actually exposed to:
 
 | If the subject… | Prioritise |
@@ -246,7 +246,7 @@ controller either way.
 | File | Contents |
 |---|---|
 | `references/privacy-laws.md` | 13 regimes: article, deadline, scope, regulator, complaint URL |
-| `references/site-registry.md` | 328 organisations, verified contacts, outcomes |
+| `references/site-registry.md` | 329 organisations, verified contacts, outcomes |
 | `references/site-registry.csv` | Same data, machine-readable |
 | `references/templates-email.md` | Request bodies per regime, plus chat/form/DM short forms |
 | `references/escalation.md` | Reply handling, follow-ups, regulator complaints |
