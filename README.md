@@ -13,7 +13,7 @@ Built from a real ten-week campaign, not from a blog post about one.
 <img alt="Regimes" src="https://img.shields.io/badge/privacy%20regimes-13-2da44e">
 <img alt="Regulators" src="https://img.shields.io/badge/regulators-21-e3b341">
 <img alt="Development" src="https://img.shields.io/badge/built%20over-10%20active%20weeks-6e7781">
-<img alt="License" src="https://img.shields.io/badge/license-MIT-24292f">
+<img alt="License" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-24292f">
 </p>
 
 ---
@@ -148,6 +148,27 @@ The registry is the part that decays. Pull requests welcome for:
 
 Please do not open issues containing anyone's personal data, including your own.
 
-## License
+## Licence
 
-MIT — see [LICENSE](LICENSE).
+Copyright © 2026 [0nicell](https://github.com/0nicell).
+
+Licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSE)
+(CC BY-NC-SA 4.0). In plain terms:
+
+- **Use it, copy it, adapt it, share it** — free, for anyone, no permission needed.
+- **Credit the source.** Keep the attribution and a link back to this repository.
+- **Not for commercial use.** You may not sell this skill, put it behind a paywall,
+  bundle it into a paid product or service, or otherwise use it primarily for
+  commercial advantage or monetary compensation.
+- **Share alike.** If you adapt it — extend the registry, add a jurisdiction, fork the
+  templates — your version must carry the same licence, so it stays free for the next person.
+
+Exercising your own data-protection rights is not a commercial use, whoever you are. The
+restriction is on selling or rebranding the skill itself, not on who is allowed to get their
+data deleted. If you want to use it commercially, open an issue and ask.
+
+Earlier releases of this repository were published under the MIT licence; copies obtained
+under those terms remain under them. Everything from this commit forward is CC BY-NC-SA 4.0.
+
+The licence covers this skill — its process, registry, templates and reference material. It
+does not cover the underlying legal instruments it cites, which are public law.

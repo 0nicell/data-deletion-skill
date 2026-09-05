@@ -1,7 +1,7 @@
 ---
 name: data-deletion
 description: Run a structured personal-data erasure campaign against OSINT tools, breach-search engines, people-search sites, B2B contact databases and ad-tech brokers. Use when someone wants their email address, name, phone number or username removed from data brokers, wants to know who is holding their data, asks about GDPR / CCPA / PIPEDA erasure or "right to be forgotten" requests, or asks to opt out of people-search or breach-lookup sites. Ships a 328-site registry with verified privacy contacts, request templates for 13 privacy regimes, and escalation paths to regulators.
-license: MIT
+license: CC-BY-NC-SA-4.0
 ---
 
 # Data Deletion
