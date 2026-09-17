@@ -1,7 +1,7 @@
 # Data Deletion Skill
 
 **A Claude skill for running a structured personal-data erasure campaign against the
-commercial data-harvesting ecosystem.** Ships a registry of 329 organisations with
+commercial data-harvesting ecosystem.** Ships a registry of 330 organisations with
 verified privacy contacts, request templates for 13 privacy regimes, and escalation paths
 to 21 regulators.
 
@@ -9,7 +9,7 @@ Built from a real ten-week campaign, not from a blog post about one.
 
 <p>
 <img alt="Skill" src="https://img.shields.io/badge/Claude-Skill-8A63D2">
-<img alt="Sites" src="https://img.shields.io/badge/sites%20covered-329-1f6feb">
+<img alt="Sites" src="https://img.shields.io/badge/sites%20covered-330-1f6feb">
 <img alt="Regimes" src="https://img.shields.io/badge/privacy%20regimes-13-2da44e">
 <img alt="Regulators" src="https://img.shields.io/badge/regulators-21-e3b341">
 <img alt="Development" src="https://img.shields.io/badge/built%20over-10%20active%20weeks-6e7781">
@@ -28,7 +28,7 @@ address per record. Twenty-eight were ad-tech platforms holding hashed identifie
 inferred segments. Most of the target list was discovered mid-campaign by asking one
 controller who it had shared data with, then following that thread.
 
-Removing yourself is not hard because the law is weak. It is hard because it is 329
+Removing yourself is not hard because the law is weak. It is hard because it is 330
 separate pieces of admin, each requiring a working contact address that is probably not
 the one on the privacy page, a legal basis matched to your jurisdiction, and a follow-up
 thirty days later that nobody remembers to send.
@@ -40,7 +40,7 @@ This skill is that admin, packaged.
 | | |
 |---|---|
 | [`SKILL.md`](SKILL.md) | The skill: an eight-step campaign process Claude follows |
-| [`references/site-registry.md`](references/site-registry.md) | **329 organisations**, nine categories, verified privacy contacts and recorded outcomes |
+| [`references/site-registry.md`](references/site-registry.md) | **330 organisations**, nine categories, verified privacy contacts and recorded outcomes |
 | [`references/site-registry.csv`](references/site-registry.csv) | Same data, machine-readable |
 | [`references/privacy-laws.md`](references/privacy-laws.md) | **13 regimes** — article, deadline, right strength, regulator |
 | [`references/templates-email.md`](references/templates-email.md) | Request bodies per regime, per site-category, plus chat / form / DM short forms |
@@ -52,14 +52,14 @@ This skill is that admin, packaged.
 
 ## Coverage
 
-**329 organisations across nine categories**
+**330 organisations across nine categories**
 
 | Category | Count | Examples of what they do |
 |---|---:|---|
-| B2B contact data & lead-gen | 75 | Sell name/email/employer records per lookup |
-| Breach & leak search | 54 | Make credentials from criminal breaches publicly searchable |
+| B2B contact data & lead-gen | 76 | Sell name/email/employer records per lookup |
+| Breach & leak search | 63 | Make credentials from criminal breaches publicly searchable |
+| OSINT / email intelligence | 42 | Turn an email address into a map of your accounts |
 | People search | 41 | Publish addresses, relatives, age — mostly US-scoped |
-| OSINT / email intelligence | 36 | Turn an email address into a map of your accounts |
 | Ad-tech & audience data | 32 | Hold hashed identifiers and inferred behavioural segments |
 | Threat intelligence | 29 | Index infostealer logs and dark-web credential dumps |
 | Regional directory | 18 | Electoral roll and directory data across the UK, DE, AT, BE |
@@ -72,6 +72,24 @@ India's DPDP Act · NZ Privacy Act · Singapore's PDPA
 
 Each with the operative article, the statutory clock, an honest assessment of how strong
 the right actually is, and the regulator to complain to when it is ignored.
+
+## Where it currently stands
+
+The registry is a live campaign log, not a finished artefact. As of the latest sweep:
+
+| Outcome | Count |
+|---|---:|
+| Confirmed removed or suppressed | 20 |
+| Replied holding no data | 39 |
+| In progress / action required | 78 |
+| Sent, awaiting reply | 146 |
+| Bounced — address dead | 31 |
+| Refused | 1 |
+| Defunct / no action needed | 15 |
+
+31 of 330 published privacy addresses were dead on arrival — about one in 11. Finding the
+replacements is the slow part of this work, and the contact column in the registry is where
+that effort is banked.
 
 ## Install
 
