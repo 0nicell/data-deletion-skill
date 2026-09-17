@@ -89,12 +89,42 @@ the automated paths ignored you.
 
 ## Expiring verification links
 
-Self-service opt-outs commonly send a confirmation link valid for **15 minutes to 24
-hours**. Two of them expired unused during the source campaign and had to be restarted
-weeks later.
+Self-service opt-outs commonly send a confirmation link valid for **anywhere from 15 minutes
+to 24 hours** — one breach-search service issues a link that dies **one hour** after it is sent.
 
-Do the self-service opt-outs in a single sitting with the inbox already open, and treat
-them as a separate work session from the email drafting.
+The trap is that **submitting the form does not complete the removal.** The form only triggers
+the email; the identifier is not suppressed until the link in that email is clicked. It is
+entirely possible to fill in every field, see a success message, and still be fully searchable
+a week later. Two opt-outs in the source campaign were lost exactly this way and had to be
+restarted weeks afterwards.
+
+Do the self-service opt-outs in a single sitting with the inbox already open, treat them as a
+separate work session from the email drafting, and do not log one as done until the
+confirmation email has actually been actioned.
+
+## Requests routed to the wrong queue
+
+A GDPR request sent to a general support address is often handled as a product ticket. One
+antivirus vendor's support desk replied asking for a product activation code and an order
+number before it would process an erasure request — neither of which has anything to do with
+the right being exercised.
+
+When this happens, do not answer the questions. Reply stating that the request is a data
+subject request under Article 17, that it does not concern a product licence, and ask for it
+to be routed to the data protection officer. If there is no movement, the statutory clock is
+still running from the original date, which is what the escalation letter relies on.
+
+## Partial compliance on multi-identifier requests
+
+Some controllers will act only on the address the request was sent *from* and refuse the other
+identifiers named in the body, on the grounds that they cannot verify ownership of addresses
+they have not received mail from. One vendor deleted the sending address and explicitly
+declined to touch the two others listed.
+
+This is the `From:`-address problem in a different form, and the answer is the same: send each
+address's request from that address wherever the mailbox still exists. Where it does not, offer
+a proportionate alternative verification rather than accepting the partial outcome, and record
+the refusal — a controller that erases one of three identifiers has not completed the request.
 
 ---
 

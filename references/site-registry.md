@@ -1,28 +1,46 @@
 # Site Registry
 
 Every organisation contacted during the campaign this skill was built from, grouped by what
-they actually do with your data. **329 entries.** Machine-readable copy: [`site-registry.csv`](site-registry.csv).
+they actually do with your data. **330 entries.** Machine-readable copy: [`site-registry.csv`](site-registry.csv).
 
 Contact addresses are the ones that were *verified working* — where an obvious address bounced, the
 replacement is recorded and the bounce noted. That column is the single most valuable thing in this
 repo: finding it is the slow part of the job, and it is already done.
 
-**Outcome** records what came back during the campaign, as of the **5 September 2026** update.
-Treat it as evidence that the address is live, not as a promise about your own request — a broker
-holding nothing on one person may hold plenty on another.
+**Outcome** records what came back during the campaign. Treat it as evidence that the address is live,
+not as a promise about your own request — a broker holding nothing on one person may hold plenty on another.
+
+## Where the campaign stands
+
+| Outcome | Count |
+|---|---:|
+| Confirmed removed or suppressed | 20 |
+| Replied holding no data | 39 |
+| In progress / action required | 78 |
+| Sent, awaiting reply | 146 |
+| Bounced — address dead | 31 |
+| Refused | 1 |
+| Defunct / no action needed | 15 |
+| **Total** | **330** |
+
+Roughly one published privacy address in 11 was dead on arrival. That is the single biggest
+time sink in a campaign like this, and the reason the contact column below is worth more than the rest
+of the repo combined.
+
+## Categories
 
 | Category | Entries |
-|---|---|
+|---|---:|
 | [Breach & leak search](#breach--leak-search) | 63 |
 | [OSINT / email intelligence](#osint--email-intelligence) | 42 |
 | [People search](#people-search) | 41 |
 | [Major data broker](#major-data-broker) | 12 |
-| [B2B contact data & lead-gen](#b2b-contact-data--lead-gen) | 75 |
+| [B2B contact data & lead-gen](#b2b-contact-data--lead-gen) | 76 |
 | [Email verification](#email-verification) | 17 |
 | [Ad-tech & audience data](#ad-tech--audience-data) | 32 |
 | [Threat intelligence](#threat-intelligence) | 29 |
 | [Regional directory](#regional-directory) | 18 |
-| **Total** | **329** |
+| **Total** | **330** |
 
 
 ## Breach & leak search
@@ -64,12 +82,12 @@ holding nothing on one person may hold plenty on another.
 | Leak-Lookup | US / intl | Email | `(previous session)` | Request sent — awaiting reply |  |
 | LeakCheck | US / intl | Email | `(previous session)` | Removal approved |  |
 | LeakCheck.cc | Intl | N/A | `(domain hijacked)` | Defunct — redirects to a push-notification scam | NOT the same operator as leakcheck.io; still listed as live on comparison sites |
-| Leaked.Domains | Intl | Email | `info@leaked.domains` | Awaiting ownership confirmation for all 3 addresses | Responsive operator, willing to process |
+| Leaked.Domains | Intl | Email | `info@leaked.domains` | Awaiting confirmation that all addresses belong to the requester | Responsive operator, willing to process |
 | LeakedPassword | Intl | Email | `(support@leakedpassword.com bounced)` | Bounced — no working contact |  |
 | LeakedSource | Intl | N/A | `(shut down)` | Defunct — shut down |  |
 | LeakIX | BE / EU | Email | `blacklist@leakix.net` | Removal case opened | Dedicated blacklist address |
 | LeakNix | US / intl | Email | `info@leaknix.com` | Request sent — awaiting reply | support@ bounced |
-| LeakPeek | UK | Live chat | `leakpeek.com/contact` | Confirmed removed |  |
+| LeakPeek | UK | Live chat | `leakpeek.com/contact` | Confirmed completed |  |
 | LeakRadar | US / intl | Email | `contact@leakradar.io` | Request sent — awaiting reply | privacy@ bounced |
 | Logoutify / BreachDirectory.com | US / intl | Email | `info@breachdirectory.com` | No records found |  |
 | Namescan | AU | Email | `compliance@namescan.io` | Request sent — awaiting reply |  |
@@ -81,7 +99,7 @@ holding nothing on one person may hold plenty on another.
 | PSBDMP | US / intl | Email | `support@psbdmp.ws` | Request sent — awaiting reply |  |
 | pwndb | Intl | Email | `info@pwndb.com` | Request sent — awaiting reply |  |
 | RaidForums | Intl | N/A | `(seized 2022)` | Defunct — seized by FBI |  |
-| Revealer.US | US | Web form + Email | `revealer.us/opt-out` (`finance@revealer.us`) | Request sent — awaiting reply | Plaintext passwords next to the exact site, live session cookies, stealer family. Self-serve opt-out suppresses a verified email within 24h; usernames/phones/names reviewed in ~4 weeks. finance@ is the only published address |
+| Revealer.US | US | Web form + Email | `revealer.us/opt-out (finance@revealer.us)` | Confirmed suppressed from search results | Self-service flow; emailed confirmation link must be clicked |
 | ScatteredSecrets | US / intl | Email | `legal@scatteredsecrets.com` | info@ bounced — no working contact |  |
 | Snusbase | US / intl | Email | `support@snusbase.com` | Self-service — account.snusbase.com after sign-up |  |
 | Snusbase | US / intl | Email | `help@snusbase.com` | Self-service — account.snusbase.com after sign-up | Supports username search |
@@ -91,7 +109,7 @@ holding nothing on one person may hold plenty on another.
 | WeLeakInfo | Intl | N/A | `(seized 2021)` | Defunct — seized by FBI/DOJ |  |
 | WhiteIntel | Intl | Email | `info@whiteintel.io` | Request sent — awaiting reply | support@whiteintel.io bounced |
 | XposedOrNot | US / intl | Email | `deva@xposedornot.com` | Privacy Shield link sent — needs activation |  |
-| xsearcher.fun | Intl | Email | `contact@xsearcher.fun` | Request sent — awaiting reply | Stealer logs: saved passwords with their URLs, browser cookies and session tokens, autofill incl. card numbers, history, crypto wallets, IP/OS/hardware ID, capture date |
+| xsearcher.fun | Intl | Email | `contact@xsearcher.fun` | Bounced — address not found | Permanent failure after 48h of retries |
 
 ## OSINT / email intelligence
 
@@ -104,32 +122,32 @@ holding nothing on one person may hold plenty on another.
 | Castrick Clues | US / intl | N/A | `(closed Feb 2026)` | Defunct — service closed |  |
 | ClarityCheck | US / intl | Email | `privacy@claritycheck.com` | Request sent — awaiting reply |  |
 | CloudSint | US / intl | Discord ticket (fastest) | `discord.com/invite/y5qzWwyYrC` | Request sent — awaiting reply | Fastest route by far: join their Discord and open a removal ticket asking to be removed. Email fallback privacy@cloudsint.net is slow. |
-| csint.pro | EU | Email | `contact@csint.pro` | Request sent — awaiting reply | 29 integrated sources, 100B+ records; priced in euro so Art. 3 is uncontroversial |
+| csint.pro | EU | Email | `contact@csint.pro` | Verification requested before action | 29 integrated sources, 100B+ records; priced in euro so Art. 3 is uncontroversial |
 | EmailOSINT | US / intl | N/A | `(parked domain)` | Skipped — parked domain |  |
 | EmailOSINT (emailosint.org) | Intl | Self-service | `emailosint.org/claim` | Confirmation link sent — needs clicking | Self-service portal is the only route |
 | EmailOSINT.org | US / intl | Email | `privacy@emailosint.org` | Confirmation link sent — needs clicking |  |
 | EmailRep.io | US / intl | Email | `privacy@sublimesecurity.com` | No PII identified |  |
 | EmailSearch.io | US / intl | Email | `hi@emailsearch.io` | support@ bounced — no working contact |  |
 | EmailSherlock | US / intl | Web form | `emailsherlock.com/optout` | Submitted |  |
-| Epieos | FR / EU | Email | `contact@epieos.com` | Search exclusion applied; no account held |  |
-| espectrosint | Intl | Email | `help@espectrosint.com` | Request sent — awaiting reply | Cross-references 200+ sources on an email, phone or username |
+| Epieos | FR / EU | Email | `contact@epieos.com` | Confirmed — search exclusion applied | Excluded as a search term; notes data remains at the original public sources |
+| espectrosint | Intl | Email | `help@espectrosint.com` | Confirmed suppressed — identifiers added to permanent suppression list (stored as hashes) 4 Sep 2026 | Model reply: suppression survives re-ingestion from future sources |
 | Fingerprint.to | Intl | Self-service | `fingerprint.to/opt-out` | Opted out — email blocked instantly on code verification | Live search across 700+ platforms by username, email or phone; nothing archived, results pulled from source at query time. The opt-out emails a 6-digit code and blocks that ONE address the moment it is entered — no account, no wait. It covers only the exact address verified: repeat per address, and use fingerprint.to/contact?type=removal for usernames and names (reviewed in 1–2 days). No privacy email is published |
 | FootprintIQ | US / intl | N/A | `footprintiq.app` | No action — client-side only | Ephemeral scans, no server storage |
 | Forensic OSINT | US / intl | N/A | `forensicosint.com` | No action — client-side only | 100% client-side |
-| HackMyIP | Intl | Email | `hello@hackmyip.com` | Request sent — awaiting reply | Email Leak tool plus IP profiling and reputation scoring |
+| HackMyIP | Intl | Email | `hello@hackmyip.com` | No breach data, account or record held | Email Leak tool plus IP profiling and reputation scoring |
 | Infoga | Intl | Email | `(contact@infoga.io bounced)` | Bounced — no working contact |  |
-| IntelBase | US / intl | Email | `support@intelbase.is` | Request sent — awaiting reply |  |
+| IntelBase | US / intl | Email | `support@intelbase.is` | Confirmed removed and excluded from future searches | Self-service form plus an emailed verification link that expires 1 hour after issue — the form alone does not complete it |
 | Intelligence Security | US / intl | N/A | `intelligencesecurity.io` | Skipped — site defunct |  |
 | Mailboxlayer | AT / EU | Email | `support@mailboxlayer.com` | Request sent — awaiting reply |  |
 | Maltego | DE / EU | Email | `privacy@maltego.com` | Request sent — awaiting reply |  |
-| Max Intel | Intl | Email | `hello@maxintel.org` | Request sent — awaiting reply | 79 free OSINT tools, no registration or API key; may be a directory rather than a data holder |
+| Max Intel | Intl | Email | `hello@maxintel.org` | Bounced — address not found | Permanent failure after 48h of retries |
 | Minelead.io | US / intl | Email | `support@minelead.io` | Request sent — awaiting reply |  |
 | Opsis OSINT | US / intl | Email | `privacy@useopsis.com` | Request sent — awaiting reply |  |
 | OSINT Industries | UK | Web form | `osint.industries/contact-us` | No storage; suppression requested |  |
 | OSINT UI | Intl | Email | `(support@osint-ui.com bounced)` | Bounced — no working contact |  |
 | OSINTDog | Intl | Email | `legal@osintdog.co` | Request sent — awaiting reply | Aggregator API over 15+ providers (LeakCheck, HackCheck, Snusbase, BreachBase, IntelVault, BreachVIP, Rutify, Akula, LeakSight, Room 101, OathNet, SEON, Shodan, Genesis, IntelX). Contact domain is .co, not .com |
 | Osintly | US / intl | N/A | `(parked domain)` | Skipped — parked domain |  |
-| Predicta Lab / Predicta Search | FR / EU | Email | `contact@predictalab.com` | Acknowledged (ref DSR-26-014) | rgpd@predictalab.com also valid |
+| Predicta Lab / Predicta Search | FR / EU | Email | `contact@predictalab.com` | Acknowledged within Art. 12(3) period | rgpd@predictalab.com also valid |
 | SEON | HU / EU | Email | `dpo@seon.io` | No data held |  |
 | Skopenow | US / intl | Email | `privacy@skopenow.com` | Added to redaction/suppression DB | Ketch portal DSR rejected for expired verification; email route worked |
 | Skymem | US / intl | Email | `info@skymem.com` | No record |  |
@@ -148,7 +166,7 @@ holding nothing on one person may hold plenty on another.
 | CallApp | IL | Email | `support@callapp.com` | Wants phone number |  |
 | CheckPeople | US / intl | Email | `privacy@checkpeople.com` | Request sent — awaiting reply |  |
 | ClustrMaps | US / intl | Email | `support@clustrmaps.com` | support@ bounced — no working contact | remove@ DNS failure |
-| CocoFinder | US | Email | `support@cocofinder.com` | More detail requested |  |
+| CocoFinder | US | Email | `support@cocofinder.com` | Additional identifying information requested |  |
 | Eyecon / Instabridge | SE / EU | Email | `privacy@instabridge.com` | Wants phone number |  |
 | FamilyTreeNow | US / intl | Email | `privacy@familytreenow.com` | Request sent — awaiting reply |  |
 | FastPeopleSearch | US / intl | Email | `support@fastpeoplesearch.zendesk.com` | Request sent — awaiting reply |  |
@@ -156,27 +174,27 @@ holding nothing on one person may hold plenty on another.
 | GoLookup | US | Email | `privacy@golookup.com` | Request sent — awaiting reply |  |
 | Hiya | US | Email | `DPO@hiya.com` | Ticket open (#3488384) |  |
 | IDCrawl | US / intl | Web form | `idcrawl.com/remove-my-information` | Form — user action required |  |
-| IDStrong | US | Email | `privacy@idstrong.com` | Ticket open (#547083) |  |
-| Information.com | US | Email | `support@information.com` | More detail requested |  |
-| InfoTracer | US / intl | Email | `privacy@infotracer.com` | Confirmed removed |  |
+| IDStrong | US | Email | `privacy@idstrong.com` | Refused — asserts it holds no records on EU individuals |  |
+| Information.com | US | Email | `support@information.com` | Additional identifying information requested |  |
+| InfoTracer | US / intl | Email | `privacy@infotracer.com` | Confirmed removed earlier; later request refused on the same EU-records grounds | Inconsistent responses between requests — worth re-testing |
 | Instant Checkmate | US / intl | Email | `privacy@instantcheckmate.com` | Confirmed deleted |  |
 | Intelius | US / intl | Email | `privacy@intelius.com` | Confirmed deleted |  |
 | Lullar | EU | Manual | `lullar.com` | Needs manual visit | Profile aggregator |
-| MyLife | US / intl | Email | `privacy@mylife.com` | No record |  |
+| MyLife | US / intl | Email | `privacy@mylife.com` | No records located |  |
 | NumLookup | US | Email | `hello@numlookup.com` | Wants name / state / phone |  |
 | Nuwber | US / intl | Email | `privacy@nuwber.com` | Request sent — awaiting reply |  |
 | PeekYou | US / intl | Email | `info@peekyou.com` | Request sent — awaiting reply |  |
-| Pentester.com | US | Email + Web form | `contact@pentester.com` | Re-contacted 4 Sep 2026 — awaiting reply | support@ bounced and legal@ auto-redirects to forms.gle/z4JxEAyEKpr9nHRh7; contact@ is the third address and the only one not yet tried. Also runs npd.pentester.com |
-| PeopleConnect | US | Email | `privacy@peopleconnect.us` | Processing (3 business days) | Parent of Intelius, Truthfinder, Instant Checkmate, PeopleLooker |
+| Pentester.com | US | Email + Web form | `contact@pentester.com` | Live contact found — secure removal form supplied on request | support@ bounced; contact@pentester.com is answered by a human who sends the form |
+| PeopleConnect | US | Email | `privacy@peopleconnect.us` | No record found — nothing to delete | Parent of Intelius, Instant Checkmate and TruthFinder — one request covers the group |
 | PeopleFinders | US / intl | Email | `customercare@peoplefinders.com` | Request sent — awaiting reply |  |
 | PeopleLooker | US / intl | Email | `privacy@peoplelooker.com` | No record |  |
 | Pipl | US / intl | Web form | `pipl.com/personal-information-removal-request` | Submitted |  |
 | Radaris | US / intl | Email | `removal@radaris.com` | Form only — radaris.com/control-privacy |  |
 | Social Catfish | US | Email | `(privacy@socialcatfish.com bounced)` | Bounced — no working contact |  |
 | Spokeo | US / intl | Email | `privacy@spokeo.com` | Ticket open |  |
-| SpyDialer | US | Email | `(support@spydialer.com bounced)` | Bounced — no working contact |  |
+| SpyDialer | US | Email | `(support@spydialer.com bounced)` | Bounced — address not found |  |
 | Spytox | US / intl | Email | `hello@spytox.com` | Site shut down |  |
-| Sync.me | IL | Email | `privacy@sync.me` | Form only — sync.me/unsubscribe | Ticket #433758 |
+| Sync.me | IL | Email | `privacy@sync.me` | Ticket opened and updated | Ticket #433758 |
 | That'sThem | US / intl | Email | `optout@thatsthem.com` | privacy@ bounced — use optout@thatsthem.com | privacy@ bounced |
 | Truecaller | SE / EU | Email | `rgo.india@truecaller.com` | Request sent — awaiting reply |  |
 | TruePeopleSearch | US / intl | Email | `support@truepeoplesearch.com` | Form only — email not accepted |  |
@@ -184,7 +202,7 @@ holding nothing on one person may hold plenty on another.
 | USPhoneBook | US / intl | Email | `privacy@usphonebook.com` | Request sent — awaiting reply |  |
 | Veripages | US | Email | `support@veripages.com` | Form only — veripages.com/inner/control-privacy |  |
 | WhitePages | US / intl | Email | `privacy@whitepages.com` | Request sent — awaiting reply |  |
-| Whoscall / Gogolook | TW | Email | `service@gogolook.com` | No information remaining |  |
+| Whoscall / Gogolook | TW | Email | `service@gogolook.com` | Confirmed — no information remains |  |
 
 ## Major data broker
 
@@ -201,7 +219,7 @@ holding nothing on one person may hold plenty on another.
 | Melissa | US | Email | `ConsumerRequest@melissa.com` | Request sent — awaiting reply |  |
 | Melissa Data | US / intl | Email | `optout@melissa.com` | Request sent — awaiting reply |  |
 | Neustar / TransUnion | US / intl | Email | `ns_privacy@transunion.com` | Request sent — awaiting reply |  |
-| Telesign | US / intl | Email | `PrivacyOffice@telesign.com` | Request sent — awaiting reply | dpo@telesign.com also valid |
+| Telesign | US / intl | Email | `PrivacyOffice@telesign.com` | Identity verification requested before processing | dpo@telesign.com also valid |
 
 ## B2B contact data & lead-gen
 
@@ -212,17 +230,18 @@ holding nothing on one person may hold plenty on another.
 | AeroLeads | US / intl | Email | `hello@aeroleads.com` | Request sent — awaiting reply |  |
 | Albacross | SE / EU | Email | `support@albacross.com` | Request sent — awaiting reply |  |
 | Amplemarket | US / intl | Email | `privacy@amplemarket.com` | Request sent — awaiting reply |  |
-| AnymailFinder | UK | Email | `legal@anymailfinder.com` | Opt-outs processed automatically |  |
+| AnymailFinder | UK | Email | `legal@anymailfinder.com` | Auto-processed on receipt | States opt-outs are actioned immediately and automatically |
 | Apollo.io | US / intl | Email | `(previous session)` | No data |  |
 | Bombora | US / intl | Email | `dsars@bombora.com` | Request sent — awaiting reply |  |
 | BookYourData | US / intl | Email | `gdpr@bookyourdata.com` | Request sent — awaiting reply | privacy@ bounced |
 | BuiltWith | US / intl | Email | `support@builtwith.com` | Request sent — awaiting reply |  |
 | Clay.com | US / intl | Email | `privacy@clay.com` | Request sent — awaiting reply |  |
 | Clearbit | US / intl | Email | `privacy@clearbit.com` | Request sent — awaiting reply |  |
-| Cognism | UK | Email | `privacy@cognism.com` | Request sent — awaiting reply |  |
+| Cognism | UK | Email | `privacy@cognism.com` | No user account located |  |
 | Coldlytics | US / intl | Email | `support@coldlytics.com` | Request sent — awaiting reply |  |
 | ContactOut | US / intl | Email | `support@contactout.com` | Request sent — awaiting reply |  |
 | Coresignal | LT / EU | Email | `privacy@coresignal.com` | Request sent — awaiting reply |  |
+| Crunchbase | US / intl | Email | `privacy@crunchbase.com` | Ticket opened and updated | Handled through Crunchbase Support Center |
 | CuFinder | US / intl | Email | `support@cufinder.io` | Request sent — awaiting reply | privacy@ bounced |
 | Datagma | FR / EU | Email | `gdpr@datagma.com` | Request sent — awaiting reply |  |
 | Datanyze | US | Email | `privacy@datanyze.com` | Covered by ZoomInfo reply | Now part of ZoomInfo |
@@ -240,7 +259,7 @@ holding nothing on one person may hold plenty on another.
 | HG Insights | US / intl | Email | `legal@hginsights.com` | Request sent — awaiting reply |  |
 | HireEZ | US / intl | Email | `privacy@hireez.com` | No data |  |
 | Hunter.io | US / intl | Email | `(previous session)` | Does not collect personal email |  |
-| Instantly.ai | US / intl | Email | `privacy@instantly.ai` | Request sent — awaiting reply |  |
+| Instantly.ai | US / intl | Email | `privacy@instantly.ai` | No personal data located |  |
 | Interseller | US / intl | Email | `privacy@interseller.io` | Request sent — awaiting reply |  |
 | Kaspr | FR / EU | Email | `privacy@kaspr.io` | Directed to DSR form |  |
 | Kendo | US / intl | Email | `support@kendoemailapp.com` | Request sent — awaiting reply |  |
@@ -249,9 +268,9 @@ holding nothing on one person may hold plenty on another.
 | LeadGenius | US / intl | Email | `optout@leadgenius.com` | Request sent — awaiting reply |  |
 | LeadIQ | US / intl | Email | `support@leadiq.com` | Confirmed removed |  |
 | LeadLeaper | US / intl | Email | `contact@leadleaper.com` | No personal addresses held |  |
-| LeadMagic | US / intl | Email | `privacy@leadmagic.io` | Confirmed erased + blacklisted | Written Art. 12 confirmation for both addresses |
+| LeadMagic | US / intl | Email | `privacy@leadmagic.io` | Confirmed deleted — written Art. 12 confirmation | Written Art. 12 confirmation for both addresses |
 | Lemlist | FR / EU | Email | `privacy@lemlist.com` | Request sent — awaiting reply | dpo@ bounced |
-| Lusha | US / intl | Email | `privacy@lusha.com` | Erased + added to suppression list |  |
+| Lusha | US / intl | Email | `privacy@lusha.com` | Acknowledged |  |
 | Mailshake | US / intl | Email | `hello@mailshake.com` | Request sent — awaiting reply |  |
 | Mixmax | US / intl | Email | `privacy@mixmax.com` | Request sent — awaiting reply |  |
 | Nymeria.io | US / intl | Email | `contact@nymeria.io` | Request sent — awaiting reply |  |
@@ -259,7 +278,7 @@ holding nothing on one person may hold plenty on another.
 | Overloop | US / intl | Email | `support@overloop.ai` | Already removed |  |
 | People Data Labs | US / intl | Email | `privacy@peopledatalabs.com` | Request sent — awaiting reply |  |
 | PhantomBuster | FR / EU | Email | `dpo@thephantomcompany.com` | privacy@ bounced — no working contact |  |
-| Prospeo | US / intl | Self-service | `prospeo.io/optout` | No record found |  |
+| Prospeo | US / intl | Self-service | `prospeo.io/optout` | No record — B2B only, does not hold personal webmail addresses |  |
 | ProxyCurl / Nubela | US / intl | Email | `hello@nubela.co` | Request sent — awaiting reply | privacy@ bounced |
 | ReachStream | US / intl | Email | `support@reachstream.net` | Request sent — awaiting reply | privacy@ bounced |
 | Reply.io | US / intl | Email | `dpo@reply.io` | No data |  |
@@ -274,14 +293,14 @@ holding nothing on one person may hold plenty on another.
 | Surfe (ex-Leadjet) | DE / EU | Email | `dpo@surfe.com` | Request sent — awaiting reply |  |
 | Swordfish.ai | US / intl | Email | `contact@swordfish.ai` | Request sent — awaiting reply |  |
 | Tomba.io | US / intl | Email | `support@tomba.io` | Confirmed removed from DB, API and extension |  |
-| UpLead | US / intl | Email | `support@uplead.com` | Form only — privacy@ unmonitored |  |
+| UpLead | US / intl | Email | `support@uplead.com` | Email unmonitored — removal must go through the privacy-policy form |  |
 | Vainu | US / intl | Email | `support@vainu.com` | No data |  |
 | VoilaNorbert | US / intl | Email | `support@voilanorbert.com` | Request sent — awaiting reply |  |
 | Waalaxy | FR / EU | Email | `(privacy@waalaxy.com bounced)` | Bounced — no working contact |  |
 | Wiza | US / intl | Email | `optout@wiza.com` | privacy@wiza.co bounced — use optout@wiza.com |  |
 | Woodpecker.co | PL / EU | Email | `legal@woodpecker.co` | Request sent — awaiting reply |  |
 | Yesware | US / intl | Email | `support@yesware.com` | Request sent — awaiting reply |  |
-| ZoomInfo | US / intl | Email | `privacy@zoominfo.com` | No profile found |  |
+| ZoomInfo | US / intl | Email | `privacy@zoominfo.com` | No profiles located |  |
 
 ## Email verification
 
@@ -332,7 +351,7 @@ holding nothing on one person may hold plenty on another.
 | Seedtag | ES / EU | Email | `gdpr@seedtag.com` | Request sent — awaiting reply |  |
 | Segment / Twilio | US / intl | Email | `privacy@segment.com` | Request sent — awaiting reply |  |
 | Sharethrough | US / intl | Email | `support@sharethrough.com` | Request sent — awaiting reply |  |
-| Similarweb | IL / EU | Email | `privacy@similarweb.com` | Confirmed deleted | legal@ asks for their DSR form; saymine portal confirmed deletion (ref 4UULSSVI) |
+| Similarweb | IL / EU | Email | `privacy@similarweb.com` | Confirmed deleted | Handled via saymine.io privacy agent |
 | Smart AdServer | FR / EU | Email | `privacy@smartadserver.com` | Request sent — awaiting reply |  |
 | Stirista | US / intl | Email | `privacy@stirista.com` | No record; opt-out list |  |
 | Taboola | US / intl | Email | `dpo@taboola.com` | Request sent — awaiting reply |  |
@@ -346,7 +365,7 @@ holding nothing on one person may hold plenty on another.
 
 | Site | Jurisdiction | Method | Verified contact | Outcome | Notes |
 |---|---|---|---|---|---|
-| Bitdefender | RO / EU | Email | `dpo@bitdefender.com` | Identity verification required — ticket closing | Ticket 1011467882 via privacy-support@tickets.bitdefender.com |
+| Bitdefender | RO / EU | Email | `dpo@bitdefender.com` | Partial — deleted only the address the request was sent from | Refuses to act on identifiers other than the sending address; illustrates the From:-address trap |
 | Bitsight / Cybersixgill | US / intl | Email | `privacy@bitsight.com` | privacy@cybersixgill.com bounced — use privacy@bitsight.com |  |
 | Constella Intelligence | ES / EU | Email | `privacy@constellaintelligence.com` | Request sent — awaiting reply |  |
 | CybelAngel | FR / EU | Email | `heather.kuch@cybelangel.com` | Acknowledged — under review | DPO is Legal Director Heather Kuch |
@@ -361,19 +380,19 @@ holding nothing on one person may hold plenty on another.
 | Group-IB | SG / intl | Email | `privacy@group-ib.com` | Request sent — awaiting reply |  |
 | Hudson Rock | US / intl | Email | `hello@hudsonrock.com` | Request sent — awaiting reply |  |
 | Intel 471 | US / intl | Email | `(privacy@intel471.com bounced)` | Bounced — no working contact |  |
-| Kaspersky | CH / intl | Email | `dpo@kaspersky.com` | Wants product activation code | Ticket INC000018569946; DFI product is the relevant one |
+| Kaspersky | CH / intl | Email | `dpo@kaspersky.com` | Misrouted to technical support — asks for a product activation code | Erasure request routed to the product support queue; needs escalation to a DPO address |
 | KELA | IL | Email | `privacy@ke-la.com` | Contacts out of office | privacy@kelacyber.com bounced; cover is amit.sela@ke-la.com |
-| Netcraft | UK | Email | `privacy@netcraft.com` | Out of office — chase bejay@netcraft.com |  |
+| Netcraft | UK | Email | `privacy@netcraft.com` | No data identified |  |
 | Outpost24 / Blueliv | SE / EU | Email | `legal@outpost24.com` | Request sent — awaiting reply |  |
 | Rapid7 / Threat Command | US / intl | Email | `datadeletion@rapid7.com` | Request sent — awaiting reply |  |
 | Recorded Future | US / intl | Email | `privacy@recordedfuture.com` | Identity verification required |  |
-| ReliaQuest / Digital Shadows | US / intl | Email | `privacy@reliaquest.com` | No data held |  |
+| ReliaQuest / Digital Shadows | US / intl | Email | `privacy@reliaquest.com` | No personal information identified |  |
 | Silobreaker | UK | Email | `(privacyinquiries@ bounced)` | Bounced — no working contact |  |
 | SOCRadar | US / intl | Email | `privacy@socradar.io` | Request sent — awaiting reply | info@socradar.io also used |
-| SpyCloud | US / intl | Email | `privacy@spycloud.com` | Verified via datasubject.com — in progress |  |
+| SpyCloud | US / intl | Email | `privacy@spycloud.com` | Confirmed deleted — request completed | Handled via datasubject.com portal |
 | StealthMole | SG | Email | `sales@stealthmole.com` | Already deleted | support@stealthmole.com handles the request |
 | ThreatMon | US / intl | Email | `info@threatmonit.io` | Request sent — awaiting reply | dpo@ bounced |
-| Trend Micro | JP / intl | Email | `privacy@trendmicro.com` | Processing | gdpr@trendmicro.com confirmed initiation |
+| Trend Micro | JP / intl | Email | `privacy@trendmicro.com` | Confirmed deleted | Deleted record for all addresses supplied; declined to also hold a suppression entry |
 | ZeroFox | US / intl | Email | `privacy@zerofox.com` | Request sent — awaiting reply |  |
 
 ## Regional directory
@@ -384,17 +403,17 @@ holding nothing on one person may hold plenty on another.
 | 11880 Gruppe | DE / EU | Email | `datenschutz@11880.com` | Request sent — awaiting reply |  |
 | 192.com | UK | Email | `privacy@192.com` | Request sent — awaiting reply | Electoral-roll people search; JS-heavy, contact unverified |
 | Cylex UK | UK / DE | Manual | `uk.cylex.co.uk` | Needs manual visit | No contact exposed |
-| Das Telefonbuch | DE / EU | Manual | `dastelefonbuch.de` | No entry found in Telefonbuch / Gelbe Seiten / Das Örtliche | German phone directory |
-| Gelbe Seiten | DE / EU | Email | `(datenschutz@gsmg.de bounced)` | Bounced — no working contact | Covered by dtme.de reply instead |
-| Golden Pages (FCR Media) | IE / EU | Email | `data@goldenpages.ie` | Request sent — awaiting reply |  |
+| Das Telefonbuch | DE / EU | Manual | `datenschutz@dtme.de` | No entry found | One reply covered Das Telefonbuch, Gelbe Seiten and Das Oertliche; use kundenservice@dtme.de |
+| Gelbe Seiten | DE / EU | Email | `(datenschutz@gsmg.de bounced)` | Bounced — undeliverable | Reachable instead via kundenservice@dtme.de, which covers Gelbe Seiten |
+| Golden Pages (FCR Media) | IE / EU | Email | `data@goldenpages.ie` | No records identified | Irish-established, so directly under Data Protection Commission supervision |
 | Herold.at | AT / EU | Manual | `herold.at` | Needs manual visit | Austrian phone/business directory |
 | Infobel | BE / EU | Manual | `infobel.com` | Needs manual visit | Pan-European business directory |
 | Italiaonline / PagineBianche | IT / EU | Email | `info@italiaonline.it` | Request sent — awaiting reply |  |
-| localsearch / search.ch / local.ch | CH | Email | `dataprivacy@localsearch.ch` | Verification required from each address | EU Art. 27 rep: info@datenschutzpartner.eu (Hamburg) |
+| localsearch / search.ch / local.ch | CH | Email | `dataprivacy@localsearch.ch` | Request received | Swiss FADP; EU Art. 27 representative also acknowledged |
 | Scoot.co.uk | UK | Manual | `scoot.co.uk` | Needs manual visit | No contact exposed |
 | Solocal / PagesJaunes | FR / EU | Email | `dpo@solocal.com` | Request sent — awaiting reply |  |
-| Thomson Local | UK | Email | `dpo@thomsonlocal.com` | Request sent — awaiting reply |  |
+| Thomson Local | UK | Email | `dpo@thomsonlocal.com` | No reference found |  |
 | Whitepages UK | UK | Email | `privacy@whitepages.co.uk` | Request sent — awaiting reply | Contact unverified |
 | Yasni.de | DE / EU | Email | `datenschutz@yasni.de` | Request sent — awaiting reply | German people-search |
 | Yell.com | UK | Email | `dpo@yell.com` | Request sent — awaiting reply | UK business/people directory, Reg. 4205228 |
-| Youvia / Gouden Gids | NL / EU | Email | `privacy@youvia.nl` | No data held |  |
+| Youvia / Gouden Gids | NL / EU | Email | `privacy@youvia.nl` | Does not store personal data |  |
